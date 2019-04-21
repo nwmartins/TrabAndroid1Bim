@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_calcFrete"
+            android:title="@string/lbCalculaFrete" />
+        <item
+            android:id="@+id/nav_cadEstado"
+            android:title="@string/lbCadEstado" />
+        <item
+            android:id="@+id/nav_cadCidade"
+            android:title="@string/lbCadCidade" />
+        <item
+            android:id="@+id/nav_cadCEP"
+            android:title="@string/lbCadCEP" />
+        <item
+            android:id="@+id/nav_cadVlFrete"
+            android:title="@string/lBValorFrte" />
+    </group>
+
+</menu>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".EnderecoActivity"
+    tools:showIn="@layout/activity_endereco">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/lbSelecioneOrigem"
+        android:id="@+id/tvEndereco"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:layout_marginBottom="5dp"/>
+
+    <!-- UF'S LAYOUT -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/lbSelecioneUF"
+            android:textAlignment="textStart"
+            android:layout_marginLeft="3dp"
+            android:textSize="18dp"/>
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/spUFs"
+            android:layout_marginBottom="5dp"></Spinner>
+
+    </LinearLayout>
+
+    <!-- CIDADES LAYOUT -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/lbSelecioneCidade"
+            android:textAlignment="textStart"
+            android:layout_marginLeft="3dp"
+            android:textSize="18dp"/>
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/spCidades"
+            android:layout_marginBottom="5dp"></Spinner>
+
+    </LinearLayout>
+
+    <!-- CEP'S LAYOUT -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/lbSelecioneCep"
+            android:textAlignment="textStart"
+            android:layout_marginLeft="3dp"
+            android:textSize="18dp"/>
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/spCEPs"
+            android:layout_marginBottom="5dp"></Spinner>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:hint="@string/lbSelecionar"
+        android:id="@+id/btSelecionar"/>
+
+</LinearLayout>

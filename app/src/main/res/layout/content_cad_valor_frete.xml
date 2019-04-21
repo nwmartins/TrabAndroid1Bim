@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".CadValorFreteActivity"
+    tools:showIn="@layout/activity_cad_valor_frete">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/lbUfOrigem"
+            android:id="@+id/tvUfOrigem"
+            android:textSize="20dp"
+            android:layout_marginLeft="3dp" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/spUfOrigem"
+            android:layout_marginLeft="3dp"></Spinner>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/lbUfDestino"
+            android:id="@+id/tvUfCad"
+            android:textSize="20dp"
+            android:layout_marginLeft="3dp" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/spUfDestino"
+            android:layout_marginLeft="3dp"></Spinner>
+
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etCadUfDescricao"
+        android:inputType="numberDecimal"
+        android:hint="@string/lBValor"
+        android:layout_marginLeft="3dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/lbSalvar"
+        android:id="@+id/btSalvar"
+        android:textSize="20dp"/>
+
+</LinearLayout>

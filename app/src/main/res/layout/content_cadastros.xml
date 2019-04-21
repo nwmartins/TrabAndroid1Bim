@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".CadastrosActivity"
+    tools:showIn="@layout/activity_cadastros">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/lbEstado"
+            android:id="@+id/tvUfCad"
+            android:textSize="20dp"
+            android:layout_marginLeft="3dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etCadUfSigla"
+            android:inputType="text"
+            android:hint="@string/lbSigla"
+            android:layout_marginLeft="3dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etCadUfDescricao"
+            android:inputType="text"
+            android:hint="@string/lbDescricao"
+            android:layout_marginLeft="3dp"/>
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/spUfCad"
+            android:layout_marginLeft="3dp"></Spinner>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/lbCidade"
+            android:textSize="20dp"
+            android:layout_marginLeft="3dp"
+            android:id="@+id/tvCidadeCad"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etCadCidadeDescricao"
+            android:inputType="text"
+            android:hint="@string/lbDescricao"
+            android:layout_marginLeft="3dp"/>
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/spCidadeCad"
+            android:layout_marginLeft="3dp"></Spinner>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/lBValorFrte"
+            android:textSize="20dp"
+            android:layout_marginLeft="3dp"
+            android:id="@+id/tvVlFrete"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etVlFrete"
+            android:inputType="number"
+            android:hint="@string/lBValor"
+            android:layout_marginLeft="3dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/lbCEP"
+            android:textSize="20dp"
+            android:layout_marginLeft="3dp"
+            android:id="@+id/tvCepCad"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etCadCep"
+            android:inputType="number"
+            android:hint="@string/lbDescricao"
+            android:layout_marginLeft="3dp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/lbSalvar"
+        android:id="@+id/btSalvar"
+        android:textSize="20dp"/>
+
+
+</LinearLayout>

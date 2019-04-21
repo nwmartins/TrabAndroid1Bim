@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">TrabalhoFrete</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="lbSelecioneOrigem">Selecione a Origem</string>
+    <string name="lbSelecioneDestino">Selecione o Destino</string>
+    <string name="lbSelecione">Selecione:</string>
+    <string name="lbOrigemSelecionado">Origem Selecionada:</string>
+    <string name="lbDestinoSelecionado">Destino Selecionado:</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="lbVoltar">Voltar</string>
+    <string name="lbCalcular">Calcular</string>
+    <string name="title_activity_estado">EstadoActivity</string>
+    <string name="lbSelecioneUF">Selecione o Estado:</string>
+    <string name="lbSelecioneCidade">Selecione a Cidade:</string>
+    <string name="lbSelecioneCep">Selecione o CEP:</string>
+    <string name="lbSelecionar">Selecionar</string>
+    <string name="lbResultado">Valor Total Frete:</string>
+    <string name="lbPeso">Informe o Peso:</string>
+    <string name="lbCalculaFrete">Calcular Frete</string>
+    <string name="lbCadEstado">Cadastrar Estado</string>
+    <string name="lbCadCidade">Cadastrar Cidade</string>
+    <string name="lbCadCEP">Cadastrar Cep</string>
+    <string name="title_activity_cadastros">Cadastros</string>
+    <string name="lbEstado">Estado:</string>
+    <string name="lbCidade">Cidade:</string>
+    <string name="lbCEP">Cep:</string>
+    <string name="lbSalvar">Salvar</string>
+    <string name="lbSigla">Sigla</string>
+    <string name="lbDescricao">Descricao</string>
+    <string name="lBValorFrte">Valor Frete</string>
+    <string name="lBValor">Valor</string>
+    <string name="title_activity_cad_valor_frete">CadValorFreteActivity</string>
+    <string name="lbUfOrigem">Estado Origem:</string>
+    <string name="lbUfDestino">Estado Destino:</string>
+
+</resources>
